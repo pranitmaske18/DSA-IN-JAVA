@@ -27,18 +27,40 @@ public class Simplefn {
         int bc = fact_n / (fact_r * fact_nmr);
         return bc;
     }
+
+
+    public static boolean isPrime(int n){
+        boolean isPrime= true;
+        for(int i= 2; i<=n-1;i++){
+            if (n % i == 0){
+                isPrime =false;
+        }
+        }
+        return isPrime;
+    }
+
+
+    public static void primeInRange(int n){
+        for(int i=2; i<=n;i++){
+            if (isPrime(i)){
+                System.out.print(i+" ");
+            }
+        }
+    }
 public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         //System.out.println("enter first number");
         int a =sc.nextInt();
         //System.out.println("Enter second number");
-        int b = sc.nextInt();
+        //int b = sc.nextInt();
         //sum(a,b);
         //System.out.println("Enter number which wants to find factorial");
         //int n = sc.nextInt();
         //int x = factorial(n);
         //System.out.println(x);
-        System.out.println(bicoff(a,b));
+        //System.out.println(bicoff(a,b));
+        //System.out.println(isPrime(5));
+        primeInRange(a);
         sc.close();
 }
         
