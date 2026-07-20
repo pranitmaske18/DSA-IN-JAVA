@@ -1,5 +1,6 @@
 package PatternPartII;
 
+
 public class Horec {
     public static void hrec(int totrows,int totcols){
         for(int i=1; i<=totrows;i++){
