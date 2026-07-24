@@ -11,7 +11,7 @@ public class MaxsubarraySum {
                 int end = j;
                 currsum=0;
                 for(int k=start; k<=end;k++){
-                    currsum+= number[k];
+                    currsum += number[k];
                 }
                 System.out.println(currsum);
                 if(maxsum<currsum){
