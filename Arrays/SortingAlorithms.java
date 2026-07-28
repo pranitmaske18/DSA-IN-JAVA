@@ -1,5 +1,5 @@
 package Arrays;
-import java.util.*;
+//import java.util.*;
 
 public class SortingAlorithms {
 
@@ -11,7 +11,7 @@ public class SortingAlorithms {
         for(int turn=0; turn<arr.length-1;turn++){
             for(int j= 0; j<arr.length-1-turn;j++){
                 if(arr[j]>arr[j+1]){
-                    //SWAPP
+                    //SWAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
                     int temp= arr[j];
                     arr[j]=arr[j+1];
                     arr[j+1]= temp;
@@ -21,6 +21,7 @@ public class SortingAlorithms {
             }
         }
     }
+
 
     public static void printarr(int arr[]) {
         for(int i=0; i<arr.length; i++){
