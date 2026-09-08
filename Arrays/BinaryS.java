@@ -18,11 +18,7 @@ public class BinaryS {
         return -1;
     }
 
-
-
                                         //time cmplecity O(log n)
-
-
 
     public static void main(String[] args){
         int num[]={12,25,26,29,35,65,78,86,96};
