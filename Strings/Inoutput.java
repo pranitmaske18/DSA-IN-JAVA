@@ -14,14 +14,14 @@ public class Inoutput {
         int alenghth = namef.length();  //in array length is poriterty so we dont use()and
         System.out.println(alenghth);   //  in string its a fuction so we use ()
         sc.close();
-
-        // String concatenation
-        String Firstname="Pranit";
+String Firstname="Pranit";
         String Lastname="Maske";
         String Fullname = Firstname + " " + Lastname;
         System.out.println(Fullname);
         // To print Charter of string
         //Str.charAt();
+        // String concatenation
+        
 
 
     }
