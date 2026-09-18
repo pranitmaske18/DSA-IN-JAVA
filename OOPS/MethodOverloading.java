@@ -4,7 +4,7 @@ public class MethodOverloading {
     public static void main(String[] args) {
         Calculator calc=new Calculator();
         System.out.println(calc.sum(1,9));
-        System.out.println(calc.sum((float)1.5,(float)9.2));
+        System.out.println(calc.sum((float)1.50,(float)9.22));
         Fisha f = new Fisha();
         f.eat();
     }
